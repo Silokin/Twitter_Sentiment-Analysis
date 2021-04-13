@@ -14,10 +14,10 @@ public class Main {
 		int count=0;
 		ConfigurationBuilder cb = new ConfigurationBuilder();
 		cb.setDebugEnabled(true)
-		  .setOAuthConsumerKey("be1gxIqSL9kSSnh6D8vI2hsdx")
-		  .setOAuthConsumerSecret("BxOo7BDcHnWYE4DtIbGtlNMEuep4GdmmSN2gdu6TJEWismH26q")
-		  .setOAuthAccessToken("803756416963997697-X6D6XSN6r6aR9jaxJ9oAV9ajl6aou5m")
-		  .setOAuthAccessTokenSecret("1UOGGgXF2gK9Rf9cFoHTQ1lrJa7l0D6Y9S2F1XxL0QwZ7");
+		  .setOAuthConsumerKey("")
+		  .setOAuthConsumerSecret("")
+		  .setOAuthAccessToken("")
+		  .setOAuthAccessTokenSecret("");
 		TwitterFactory tf = new TwitterFactory(cb.build());
 		Twitter twitter = tf.getInstance();
 		try {
